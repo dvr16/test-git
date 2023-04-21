@@ -37,6 +37,37 @@ pull request, а также описание. После этого нажима
 Можно посмотреть как обычно разработчики проверяют код друг у друга.
 Во первых мы можем добавить людей, которые будут смотреть наш код, их можно указать в reviewers
 ![Getting Started](./img/reviewers.png)
+и вводим GitHub человека, которому хотим добавить ревьювера.
+![Getting Started](./img/github_name.png)
+Также мы можем просмотреть все изменения, которые были сделаны конкретным разработчиком. Для этого мы можем переместиться в Files changed
+![Getting Started](./img/files_changed.png)
+и там можно посмотреть все изменения
+![Getting Started](./img/files_changed_continie.png)
+которые мы сделали в ветке name_branch, в данном слайде эта ветка называется develop
+![Getting Started](./img/files_changed_develop.png)
+и которых нет в ветке main/master
+Далее: к этим изменениям мы можем указать комментарии. Нажав на плюсик мы можем написать следующее:
+![Getting Started](./img/add_comment.png)
+после нажимает Start a reviewers
+![Getting Started](./img/start_a_review.png)
+Также мы можем добавить ещё комментариев, например:
+![Getting Started](./img/don't_remove_line.png)
+А далее, мы публикуем эти комментарии, чтобы они были видны разработчиками
+![Getting Started](./img/finish_comment.png)
+Чтобы это опубликовать, нажимаем Finish your review, пишем какой - то комментарий и 
+нажимаем Submit review
+![Getting Started](./img/submit_review.png)
+После этого, все наши комментарии будут видны всеми нашими разработчиками.
+И после того, когда все замечания будут исправлены и все баги пофикшены, мы нажать данную кнопку
+![Getting Started](./img/resolve_conversation.png)
+После того как все наши баги исправлены, мы сделаем слияние
+![Getting Started](./img/merge.png)
+Слияние (merge) - это перенос изменений из одной ветки в другую.
+Далее нажимаем confirm merge
+Обычно после merge удаляют ветку, которая была замёржена. В данном случае это develop
+Удаляют ветку так
+![Getting Started](./img/delete_branch.png)
+
 
 
 
